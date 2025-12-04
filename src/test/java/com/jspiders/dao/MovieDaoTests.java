@@ -14,7 +14,7 @@ public class MovieDaoTests {
 
     public static void testAddMovie()
     {
-        System.out.println("Testing ADD Movie");
+        System.out.println("Testing ADD Movie  to database");
         try {
             MovieDaoImpl movieDao = new MovieDaoImpl();
 
