@@ -28,8 +28,8 @@ public class ShowsServiceImpl implements ShowsService{
         AuditoriumEntity auditoriumEntity = auditoriumDao.getAuditorium(1l);
         showEntity.setAuditorium(auditoriumEntity);//link audi to show
 
-//        MovieEntity movieEntity = movieDao.getMovie(4l);
-//        showEntity.setMovie(movieEntity);//link movie to show
+     MovieEntity movieEntity = movieDao.getmovie(4l);
+        showEntity.setMovie(movieEntity);//link movie to show
 
         showDaoImpl.addShow(showEntity);//add show to table
 
